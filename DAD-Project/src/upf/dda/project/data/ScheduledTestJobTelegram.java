@@ -47,7 +47,7 @@ public class ScheduledTestJobTelegram implements Job {
 			// access update from twitter api and get message_id
 			Client clientGetLastMessage_id = ClientBuilder.newClient();
 			WebTarget targetLastMessage_id = clientGetLastMessage_id.target("https://api.telegram.org")
-					.path("bot" + "497133224:AAGe8YnWFd3qQVMUMyfJZWoW4VzYqNbXTMo" + "/getUpdates");
+					.path("bot" + "THIS_IS_SENSIBLE_INFORMATION" + "/getUpdates");
 			JSONObject queryResult;
 			queryResult = new JSONObject(
 					targetLastMessage_id.request(MediaType.APPLICATION_JSON_TYPE).get(String.class));
