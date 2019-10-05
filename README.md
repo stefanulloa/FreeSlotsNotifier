@@ -1,5 +1,5 @@
 # FreeSlotsNotifier
-Distributed application integrating Bicing, Twitter and Telegram Services as part of a Development of Distributed Applications college project.
+Distributed application integrating Bicing, Twitter and Telegram Services as part of a Development of Distributed Applications college project with Xiwei Zhou.
 
 The main functionality of this application is notifying its users the amount of free slots at their preferred bike stations from the bicycle sharing system of Barcelona (Bicing). Users are notified via Telegram (using a bot we created for this purpose). 
 The system publishes a REST API to accomplish the functionalities.
