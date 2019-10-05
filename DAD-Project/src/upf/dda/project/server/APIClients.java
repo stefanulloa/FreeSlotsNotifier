@@ -138,7 +138,7 @@ public class APIClients {
 			try {
 
 				WebTarget targetSendMessage = clientNotify.target("https://api.telegram.org")
-						.path("/bot" + "497133224:AAGe8YnWFd3qQVMUMyfJZWoW4VzYqNbXTMo" + "/sendMessage");
+						.path("/bot" + "THIS_IS_SENSIBLE_INFORMATION" + "/sendMessage");
 				String response = targetSendMessage.request().post(Entity.entity(message, MediaType.APPLICATION_JSON_TYPE),
 						String.class);
 				System.out.println("RESPONSE: \n" + response);
