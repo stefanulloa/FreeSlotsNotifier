@@ -30,7 +30,7 @@ public class TestTelegram {
 		Client clientAdd = ClientBuilder.newClient();
 		WebTarget targetAdd = clientAdd.target("http://localhost:15000").path("clients/add");
 
-		String token = "497133224:AAGe8YnWFd3qQVMUMyfJZWoW4VzYqNbXTMo";
+		String token = "THIS_IS_SENSIBLE_INFORMATION";
 
 		List<String> sub1 = Arrays.asList("1", "2", "123");
 		User client1 = new User("309982192", sub1, token);
