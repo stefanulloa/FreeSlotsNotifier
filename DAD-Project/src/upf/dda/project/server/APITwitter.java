@@ -15,10 +15,10 @@ import twitter4j.conf.ConfigurationBuilder;
 
 public class APITwitter {
 
-	private static String CONSUMER_KEY = "key1";
-	private static String CONSUMER_SECRET = "key2";
-	private static String ACCESS_TOKEN = "key3";
-	private static String ACCESS_TOKEN_SECRET = "key4";
+	private static String CONSUMER_KEY = "THIS_IS_SENSIBLE_INFORMATION";
+	private static String CONSUMER_SECRET = "THIS_IS_SENSIBLE_INFORMATION";
+	private static String ACCESS_TOKEN = "THIS_IS_SENSIBLE_INFORMATION";
+	private static String ACCESS_TOKEN_SECRET = "THIS_IS_SENSIBLE_INFORMATION";
 	private static String Old_Tweet="";
 	
 	public APITwitter() throws TwitterException{
