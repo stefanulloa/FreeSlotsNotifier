@@ -15,10 +15,10 @@ import twitter4j.conf.ConfigurationBuilder;
 
 public class APITwitter {
 
-	private static String CONSUMER_KEY = "bGRz5II6dtFmlAjmAahJ2ejvD";
-	private static String CONSUMER_SECRET = "TRg8bihIPaDKT48uifK1umq79uVShnp0dGK6FB1ahMIzDrMPZx";
-	private static String ACCESS_TOKEN = "632303105-IeEt0x4vkyJ8YL2IpbAZVAxVIQvftNMNTiTcOZzg";
-	private static String ACCESS_TOKEN_SECRET = "e82xqcbLRUnCQEM6SfQOfxPHjZvoZW1gPowlCFVMc8VSe";
+	private static String CONSUMER_KEY = "key1";
+	private static String CONSUMER_SECRET = "key2";
+	private static String ACCESS_TOKEN = "key3";
+	private static String ACCESS_TOKEN_SECRET = "key4";
 	private static String Old_Tweet="";
 	
 	public APITwitter() throws TwitterException{
